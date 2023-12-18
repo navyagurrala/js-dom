@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(159, 233, 197);
+        }
+        h1{
+            color: rgb(30, 58, 201);
+        }
+        table,tr,th,td{
+            border: 2px solid ;
+            border-collapse: collapse;
+           width: 100%;
+           
+        }
+        th{
+            background-color: rgb(126, 219, 73);
+        }
+        
+        tr{
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+    
+    <script>
+        let h1=document.createElement("h1")
+        h1.innerText="NAVYA SRI GUURALA"
+        document.body.appendChild(h1)
+        console.log(h1.style.textAlign="center")
+
+        let h4=document.createElement("h4")
+        h4.innerText="MAIL:navyasrigurrala  mbl no.:+91 xxxxxxxxxx"
+        document.body.appendChild(h4)
+        console.log(h4.style.textAlign="center")
+
+        let h3=document.createElement("h3")
+        h3.innerText="CAREER OBJECTIVE:"
+        document.body.appendChild(h3)
+        console.log(h3)
+
+        let p=document.createElement("p")
+        p.innerText="Looking forward to work for my dream, which provides the chance to improve my skills to learn and grow along with the organization goals"
+        document.body.appendChild(p)
+        console.log(p)
+
+        let h11=document.createElement("h1")
+        h11.innerText="EDUCATIONAL DETAILS"
+        document.body.appendChild(h11)
+        console.log(h11.style.textAlign="center")
+
+       let tbl=document.createElement("table")
+       let tr1=document.createElement("tr")
+       let th1=document.createElement("th")
+       th1.innerHTML="NAME OF THE INSTITUTE"
+
+       
+       tr1.append(th1)
+       let th2=document.createElement("th")
+       th2.innerHTML="QUALIFICATION"
+       tr1.append(th2)
+
+       let th3=document.createElement("th")
+       th3.innerHTML="SPECIALIZATION"
+       tr1.append(th3)
+
+       let th4=document.createElement("th")
+       th4.innerHTML="PERCENTAGE"
+       tr1.append(th4)
+
+       let th5=document.createElement("th")
+       th5.innerHTML="YEAR OF PASSING "
+       tr1.append(th5)
+
+
+       tbl.append(tr1)
+
+       let tr2=document.createElement("tr")
+       let tr2td1=document.createElement("td")
+       tr2td1.innerHTML="TRINITY COLLEGE OF ENGINNEERING AND TECHNOLOGY"
+       tr2.append(tr2td1)
+       tbl.append(tr2)
+
+       
+       let tr2td2=document.createElement("td")
+       tr2td2.innerHTML="B.TECH"
+       tr2.append(tr2td2)
+       tbl.append(tr2)
+
+       let tr2td3=document.createElement("td")
+       tr2td3.innerHTML="CSE"
+       tr2.append(tr2td3)
+       tbl.append(tr2)
+
+       let tr2td4=document.createElement("td")
+       tr2td4.innerHTML="72.2"
+       tr2.append(tr2td4)
+       tbl.append(tr2)
+
+       let tr2td5=document.createElement("td")
+       tr2td5.innerHTML="2023"
+       tr2.append(tr2td5)
+       tbl.append(tr2)
+
+       let tr3=document.createElement("tr")
+       let tr3td1=document.createElement("td")
+       tr3td1.innerHTML="KARIMALA JUNIOR COLLEGE JANNARAM"
+       tr3.append(tr3td1)
+       tbl.append(tr3)
+
+       
+       let tr3td2=document.createElement("td")
+       tr3td2.innerHTML="INTERMEDIATE"
+       tr3.append(tr3td2)
+       tbl.append(tr3)
+
+       let tr3td3=document.createElement("td")
+       tr3td3.innerHTML="MPC"
+       tr3.append(tr3td3)
+       tbl.append(tr3)
+
+       let tr3td4=document.createElement("td")
+       tr3td4.innerHTML="93"
+       tr3.append(tr3td4)
+       tbl.append(tr3)
+
+       let tr3td5=document.createElement("td")
+       tr3td5.innerHTML="2019"
+       tr3.append(tr3td5)
+       tbl.append(tr3)
+
+       let tr4=document.createElement("tr")
+       let tr4td1=document.createElement("td")
+       tr4td1.innerHTML="LITTLE HANS ENGLISH MEDIUM HIGH SCHOOL JANNARAM"
+       tr4.append(tr4td1)
+       tbl.append(tr4)
+
+       let tr4td2=document.createElement("td")
+       tr4td2.innerHTML="SSC"
+       tr4.append(tr4td2)
+       tbl.append(tr4)
+
+       let tr4td3=document.createElement("td")
+       tr4td3.innerHTML="-"
+       tr4.append(tr4td3)
+       tbl.append(tr4)
+
+       let tr4td4=document.createElement("td")
+       tr4td4.innerHTML="87"
+       tr4.append(tr4td4)
+       tbl.append(tr4)
+
+       let tr4td5=document.createElement("td")
+       tr4td5.innerHTML="2017"
+       tr4.append(tr4td5)
+       tbl.append(tr4)
+       document.body.append(tbl)
+
+       let pro=document.createElement("h2");
+  pro.innerHTML="<u>PROJECTS:</u>";
+    pro.style.color="purple";
+   document.body.appendChild(pro);
+
+   let pro1=document.createElement("h4");
+  pro1.innerHTML="PROJECT NAME:<span style=color:black>Defensive Modeling of Fake News Through Online Social  Networks</span>";
+    pro1.style.color="purple";
+   document.body.appendChild(pro1);
+
+   let pro3=document.createElement("h4");
+  pro3.innerHTML="PROJECT DESCRIPTION:<span style=color:black>In this project, we aim to develop a model that will be able to detect and eliminate fake news from OSNs and help ease some OSN users stress regarding the pandemic</span>";
+    pro3.style.color="deeppink";
+   document.body.appendChild(pro3);
+
+   let pro2=document.createElement("h4");
+  pro2.innerHTML="PROJECT NAME:<span style=color:black>Similarity Search for Encrypted Images In Secure Cloud Computing</span>";
+    pro2.style.color="purple";
+   document.body.appendChild(pro2);
+
+   let pro4=document.createElement("h4");
+  pro4.innerHTML="PROJECT DESCRIPTION:<span style=color:black>In this project, we investigate similarity search for encrypted images in secure cloud computing</span>";
+    pro4.style.color="deeppink";
+   document.body.appendChild(pro4);
+
+   let doc=document.createElement("h2");
+   doc.innerHTML="<u>HOBBIES:</u>";
+      doc.style.color="purple";
+   document.body.appendChild(doc);
+
+   let doc1=document.createElement("li");
+   doc1.innerHTML="drawing";
+      doc1.style.color="crimson";
+   document.body.appendChild(doc1);
+
+   let doc2=document.createElement("li");
+   doc2.innerHTML="Learning new technologies";
+      doc2.style.color="crimson";
+   document.body.appendChild(doc2);
+
+   let doc3=document.createElement("h2");
+   doc3.innerHTML="<u>STRENGTHS:</u>";
+      doc3.style.color="purple";
+   document.body.appendChild(doc3);
+
+
+   let doc4=document.createElement("li");
+   doc4.innerHTML="Enthusiastic.";
+      doc4.style.color="crimson";
+   document.body.appendChild(doc4);
+
+   let doc5=document.createElement("li");
+   doc5.innerHTML="Time management:";
+      doc5.style.color="crimson";
+   document.body.appendChild(doc5);
+
+   let doc5=document.createElement("li");
+   doc5.innerHTML="selfmotiveted";
+      doc5.style.color="crimson";
+   document.body.appendChild(doc5);
+
+   let doc5=document.createElement("li");
+   doc5.innerHTML="quick learner";
+      doc5.style.color="crimson";
+   document.body.appendChild(doc5);
+
+   let doc5=document.createElement("li");
+   doc5.innerHTML="selfconfident";
+      doc5.style.color="crimson";
+   document.body.appendChild(doc5);
+
+   
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
